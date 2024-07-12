@@ -1,0 +1,17 @@
+.header{
+  display:flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: .5rem .5rem;
+}
+.links a{
+  text-decoration: none;
+  font-size: large;
+}
