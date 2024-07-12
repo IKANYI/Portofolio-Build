@@ -50,6 +50,7 @@
   display: inline-block;
   text-decoration: none;
   color: #62becf;
+  margin-bottom: 2rem;
 }
 .post{
   display: flex;
