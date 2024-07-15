@@ -42,7 +42,30 @@
   .profile-image{
     display: none;
   }
-
+  .recent-post{
+    display: flex;
+    flex-direction: row;
+  }
+  .recent-post-head{
+    display: flex;
+    flex-direction: column;
+  }
+  .view{
+    display: none;
+  }
+  .post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+  }
+  .works{
+    display: flex;
+    flex-direction: column;
+  }
+  .works-img{
+    width:400px;
+  }
 }
 .recent-post {
   display: flex;
@@ -95,7 +118,7 @@
   margin-bottom: 1rem;
 }
 .works-img {
-  width: 30%;
+  width: 15rem;
   padding-left: 0.6rem;
 }
 .works-text h3 {
