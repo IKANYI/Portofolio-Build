@@ -4,9 +4,12 @@ function Head() {
   return (
     <div className="header">
       <div className="links">
-        <a href="">works</a>
-        <a href="">blog</a>
-        <a href="">contact</a>
+      
+      <Link to="/"></Link>
+      <Link to="/Blogs">Blog</Link>
+      <Link to="/works">Works</Link>
+      <Link to="/contact">Contact</Link>
+      
       </div>
     </div>
   );

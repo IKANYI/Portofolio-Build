@@ -1,0 +1,27 @@
+.workcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #A9A9A4;
+}
+.work-image{
+    margin: 20px;
+}
+.work-image img{
+    width: 20rem;
+}
+button{
+    background-color:#140A34;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.workcontentleft{
+    display: flex;
+    flex-direction: column;
+
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+}
