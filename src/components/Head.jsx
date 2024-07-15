@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom"
-import './Head.css'
-function Head( ){
-  return(
+import { Link } from "react-router-dom";
+import "./Head.css";
+function Head() {
+  return (
     <div className="header">
       <div className="links">
       
@@ -11,8 +11,7 @@ function Head( ){
       <Link to="/contact">Contact</Link>
       
       </div>
-
     </div>
-  )
+  );
 }
-export default Head
+export default Head;
