@@ -1,23 +1,21 @@
-import { BrowserRouter,Routes, Route } from 'react-router-dom'
-import './App.css'
-import Head from './components/Head.jsx'
-import Home from './pages/Home.jsx'
-import Footer from './components/Footer.jsx'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Head from "./components/Head.jsx";
+import Home from "./pages/Home.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Head/>
+        <Head />
         <Routes>
-           <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<Home />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
-     
-      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
