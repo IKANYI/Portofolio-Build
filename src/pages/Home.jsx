@@ -1,25 +1,13 @@
-import profileImg from "../assets/simons.jpg";
+import Hero from "./Home/Hero";
 import dashImg from "../assets/dash.jpg";
 import portImg from "../assets/portrait.jpg";
 import mayaImg from "../assets/maya.jpg";
+
 import "./main.css";
 function Home() {
   return (
     <div className="home">
-      <div className="profile">
-        <div className="profile-info">
-          <h1>Hi, am John, Creative Technologist</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
-            rerum fugiat voluptate dolorem reprehenderit corrupti modi facere
-            debitis placeat reiciendis.
-          </p>
-          <a href="">download resume</a>
-        </div>
-        <div className="profile-image">
-          <img src={profileImg} alt="profile picture" />
-        </div>
-      </div>
+      <Hero />
       <div className="recent-post">
         <div className="recent-post-head">
           <h3>Recent posts</h3>
