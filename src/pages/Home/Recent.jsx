@@ -5,8 +5,8 @@ function Recent() {
   return (
     <div className="recent-post">
         <div className="recent-post-head">
-          <h3>Recent posts</h3><div className="view"><a href="">View all</a></div>
-          
+          <h3>Recent posts</h3><div className="view">
+            <a href="">View all</a></div>
         </div>
         <div className="post">
           <div className="post-left">
