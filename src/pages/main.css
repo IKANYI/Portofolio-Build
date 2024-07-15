@@ -1,9 +1,12 @@
 .profile {
   display: flex;
+  max-width: 40rem;
 }
 .profile-info {
   width: 70%;
+  
 }
+
 .profile-info p {
   color: #7d7e87;
 }
