@@ -3,8 +3,7 @@
   max-width: 40rem;
 }
 .profile-info {
-  width: 70%;
-  
+  width: 70%; 
 }
 
 .profile-info p {
@@ -29,9 +28,21 @@
   margin: 1rem 0;
   margin-bottom: 4rem;
 }
+
 .profile-image img {
   display: block;
   object-fit: cover;
+}
+@media screen and (max-width: 420px) {
+  .profile-info{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .profile-image{
+    display: none;
+  }
+
 }
 .recent-post {
   display: flex;
