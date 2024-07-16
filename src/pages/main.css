@@ -57,7 +57,6 @@
   .recent-post-head{
     display: flex;
     flex-direction: column;
-    margin: 0 8rem;
   }
   .view{
     display: none;
@@ -127,7 +126,7 @@
   margin-bottom: 1rem;
 }
 .works-img {
-  width: 15rem;
+  width: 30%;
   padding-left: 0.6rem;
 }
 .works-text h3 {
