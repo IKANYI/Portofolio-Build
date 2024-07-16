@@ -1,3 +1,8 @@
+.home{
+  margin: 0 4rem;
+  max-width: 1040px;
+ 
+}
 .profile {
   display: flex;
   max-width: 40rem;
@@ -33,7 +38,10 @@
   display: block;
   object-fit: cover;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 750px) {
+  .home{
+    margin: 0 .5rem;
+  }
   .profile-info{
     width: 100%;
     align-items: center;
@@ -49,6 +57,7 @@
   .recent-post-head{
     display: flex;
     flex-direction: column;
+    margin: 0 8rem;
   }
   .view{
     display: none;

@@ -1,7 +1,7 @@
 import "./Blog.css";
 function Blog() {
   return (
-    <div>
+    <div className="blog">
       <div className="blog-container">
         <h1 className="maintitle">Blog</h1>
         <div className="maincontainer">
