@@ -57,6 +57,7 @@ a:hover{
   justify-content: end;
   align-items: center;
 }
+<<<<<<< HEAD
 .socials{
   display: flex;
   gap: 2rem;
@@ -66,4 +67,10 @@ a:hover{
 .socials a {
   gap: 2rem;
  font-size: 20px;
+=======
+.socials  {
+  gap: 2rem;
+  display: flex;
+
+>>>>>>> 72a7508ca3e8fbd1d4dddee69b3036439685337e
 }

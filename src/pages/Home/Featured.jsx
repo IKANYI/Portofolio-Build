@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+// import React from 'react'
+>>>>>>> 72a7508ca3e8fbd1d4dddee69b3036439685337e
 import '../main.css'
 import dashImg from "../../assets/dash.jpg";
 import portImg from "../../assets/portrait.jpg";
@@ -8,9 +12,10 @@ function Featured() {
     <div className="featured-work">
         <h3>Featured Works</h3>
         <div className="works">
-          <div className="works-img">
-            <img src={dashImg} alt="work thumbnail" />
+        <div className="works-img">
+        <img src={dashImg} alt="work thumbnail" />
           </div>
+            
           <div className="works-text">
             <h3>Designing Dashboards</h3>
             <div className="works-date">
@@ -59,4 +64,4 @@ function Featured() {
   )
 }
 
-export default Featured
+export default Featured;

@@ -1,3 +1,8 @@
+.home{
+  margin: 0 4rem;
+  max-width: 1040px;
+ 
+}
 .profile {
   display: flex;
   max-width: 40rem;
@@ -36,7 +41,10 @@
   height: 20rem; */
  
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 750px) {
+  .home{
+    margin: 0 .5rem;
+  }
   .profile-info{
     width: 100%;
     align-items: center;
@@ -68,7 +76,7 @@
     margin-bottom: 1px solid rgb(218, 214, 214);
   }
   .works-img{
-    width:400px;
+    width:90%;
   }
 }
 .recent-post {
@@ -122,7 +130,7 @@
   margin-bottom: 1rem;
 }
 .works-img {
-  width: 15rem;
+  width: 400px;
   padding-left: 0.6rem;
 }
 .works-text h3 {
