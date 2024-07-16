@@ -57,7 +57,13 @@ a:hover{
   justify-content: end;
   align-items: center;
 }
+.socials{
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+
+}
 .socials a {
   gap: 2rem;
-  display: inline-block;
+ font-size: 20px;
 }

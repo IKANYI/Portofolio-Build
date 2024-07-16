@@ -3,8 +3,9 @@ function Blog() {
   return (
     <div>
       <div className="blog-container">
-        <h1 className="maintitle">Blog</h1>
+       
         <div className="maincontainer">
+        <h1 >Blog</h1>
           <h2>UI Interactions of the week</h2>
           <div className="content">
             <p>

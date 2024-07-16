@@ -32,6 +32,9 @@
 .profile-image img {
   display: block;
   object-fit: cover;
+  /* width: 20rem;
+  height: 20rem; */
+ 
 }
 @media screen and (max-width: 420px) {
   .profile-info{
@@ -62,6 +65,7 @@
   .works{
     display: flex;
     flex-direction: column;
+    margin-bottom: 1px solid rgb(218, 214, 214);
   }
   .works-img{
     width:400px;

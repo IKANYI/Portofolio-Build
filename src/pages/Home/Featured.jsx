@@ -1,4 +1,4 @@
-import React from 'react'
+
 import '../main.css'
 import dashImg from "../../assets/dash.jpg";
 import portImg from "../../assets/portrait.jpg";
@@ -20,7 +20,7 @@ function Featured() {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reiciendis, asperiores?
-            </p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, accusantium esse. Illum cupiditate blanditiis earum laborum ea id in officia. </p>
           </div>
         </div>
         <div className="works">
@@ -36,7 +36,7 @@ function Featured() {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reiciendis, asperiores?
-            </p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum libero quasi recusandae maxime vero explicabo mollitia quos est, culpa earum.</p>
           </div>
         </div>
         <div className="works">
@@ -52,7 +52,7 @@ function Featured() {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reiciendis, asperiores?
-            </p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi eum fugiat rem qui. Eius in consectetur tempore est quaerat. Vel.</p>
           </div>
         </div>
       </div>

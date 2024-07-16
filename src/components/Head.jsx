@@ -16,7 +16,7 @@ function Header() {
             <div className="menu-navbar">
                 <Link to='/'><li onClick={() => { setMenu("Home") }}>Home{menu === "Home" ? <hr /> : <></>}</li></Link>
                 <Link to='/Blogs' onClick={() => { setMenu("Blogs") }}><li>Blog{menu === "Blogs" ? <hr /> : <></>}</li></Link>
-                <Link to='/Work'><li onClick={() => { setMenu("Work") }}>Work{menu === "Work" ? <hr /> : <></>}</li></Link>
+                <Link to='/works'><li onClick={() => { setMenu("works") }}>Work{menu === "works" ? <hr /> : <></>}</li></Link>
             </div>
             {click ? <div className="menu-nav-bar">
                 <div className="menu">
@@ -24,7 +24,7 @@ function Header() {
                 </div>
                 <Link to='/'><li onClick={() => { setMenu("Home") }}>Home{menu === "Home" ? <hr /> : <></>}</li></Link>
                 <Link to='/Blogs' onClick={() => { setMenu("Blogs") }}><li>Blog{menu === "Blogs" ? <hr /> : <></>}</li></Link>
-                <Link to='/Work'><li onClick={() => { setMenu("Work") }}>Work{menu === "Work" ? <hr /> : <></>}</li></Link>
+                <Link to='/works'><li onClick={() => { setMenu("works") }}>Work{menu === "works" ? <hr /> : <></>}</li></Link>
             </div> : <div className="menu">
                 <h2 onClick={handleMenu}><FaBars /></h2>
             </div>}
