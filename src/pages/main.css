@@ -72,7 +72,7 @@
     flex-direction: column;
   }
   .works-img{
-    width:400px;
+    width:90%;
   }
 }
 .recent-post {
@@ -126,7 +126,7 @@
   margin-bottom: 1rem;
 }
 .works-img {
-  width: 30%;
+  width: 400px;
   padding-left: 0.6rem;
 }
 .works-text h3 {

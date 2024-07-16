@@ -8,7 +8,10 @@ function Featured() {
     <div className="featured-work">
         <h3>Featured Works</h3>
         <div className="works">
-            <img src={dashImg} alt="work thumbnail" />
+        <div className="works-img">
+        <img src={dashImg} alt="work thumbnail" />
+          </div>
+            
           <div className="works-text">
             <h3>Designing Dashboards</h3>
             <div className="works-date">
